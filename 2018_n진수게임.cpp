@@ -5,7 +5,7 @@
 using namespace std;
 
  char number[18] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
-                   'A', 'B', 'C', 'D', 'E', 'F'};
+                   'A', 'B', 'C', 'D', 'E', 'F'}; 
 
 string convert(int num, int n){
     string st;
@@ -22,8 +22,8 @@ string convert(int num, int n){
 
 
 string solution(int n, int t, int m, int p) {
-    string answer = "";   
-    string temp="";
+    string answer = "";   //내 차례
+    string temp=""; //모든 
     for(int num = 0; temp.size() <= m*t; num++){
         string ngame = convert(num, n);
         temp += ngame;
