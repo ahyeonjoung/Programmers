@@ -29,7 +29,7 @@ int solution(vector<string> lines) {
     
     for(int i = 0; i < lines.size(); i++)
     {
-        int end_time = end_t[i] + 1000; 
+        int end_time = end_t[i] + 1000; //1초동안의 트래픽측정
         int count = 0;
         
         for(int j = i; j < lines.size(); j++)
