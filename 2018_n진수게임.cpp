@@ -9,7 +9,7 @@ using namespace std;
 
 string convert(int num, int n){ //숫자->n
     string st;
-    if(num == 0){
+    if(num == 0){   
         return "0";
     }
     while(num > 0){
