@@ -15,7 +15,7 @@ string convert(int num, int n){ //숫자->n
     while(num > 0){
         st += number[num % n];
         num /= n; 
-    }
+    } 
     reverse(st.begin(), st.end());
     return st;
 }
