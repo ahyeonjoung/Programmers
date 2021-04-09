@@ -9,7 +9,7 @@ int solution(vector<string> lines) {
     
     for(int i = 0; i < lines.size(); i++)
     {
-        string h, m, s, ms; //시간, 분, 초, 소수점초 
+        string h, m, s, ms; //시간, 분, 초, 소수점초  
         int ih, im, is, process; 
         
         lines[i].pop_back(); //마지막원소 s제거
