@@ -11,7 +11,7 @@ vector<int> solution(int N, vector<int> stages) {
     vector <int> trying;
     trying.assign(N+1,0);
     vector <double> temp;
-    temp.assign(N+1,0.0);
+    temp.assign(N+1,0.0); 
     
     for(int i=0;i<stages.size();i++){
         tmp=stages[i];
