@@ -8,7 +8,7 @@ using namespace std;
                    'A', 'B', 'C', 'D', 'E', 'F'};  //16진수까지의 숫자
 
 string convert(int num, int n){ //숫자->n  
-    string st;
+    string st; 
     if(num == 0){   
         return "0"; 
     }
@@ -17,7 +17,7 @@ string convert(int num, int n){ //숫자->n
         num /= n;  
     } 
     reverse(st.begin(), st.end());
-    return st; 
+    return st;  
 }
 
 
