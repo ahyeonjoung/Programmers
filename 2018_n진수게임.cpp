@@ -12,7 +12,7 @@ string convert(int num, int n){ //숫자->n
     if(num == 0){   
         return "0"; 
     }
-    while(num > 0){
+    while(num > 0){ 
         st += number[num % n];
         num /= n;     
     } 
