@@ -13,7 +13,7 @@ vector<int> solution(int N, vector<int> stages) {
     vector <double> temp;
     temp.assign(N+1,0.0); 
     
-    for(int i=0;i<stages.size();i++){
+    for(int i=0;i<stages.size();i++){ 
         tmp=stages[i];
         for(int j=0;j<tmp;j++){
             trying[j]++;
