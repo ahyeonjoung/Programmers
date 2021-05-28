@@ -25,7 +25,7 @@ string solution(int n, int t, int m, int p) {
     string answer = "";   //내 차례
     string temp=""; //모든 
     for(int num = 0; temp.size() <= m*t; num++){
-        string ngame = convert(num, n); 
+        string ngame = convert(num, n);   
         temp += ngame;
     }
     
