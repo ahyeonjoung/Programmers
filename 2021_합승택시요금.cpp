@@ -13,7 +13,7 @@ void dijkstra(int start,int d[])
     priority_queue<pair<int,int>>pq;
     pq.push({0,start}); 
     d[start]=0;
-    while(!pq.empty())
+    while(!pq.empty()) 
     {
         int dist = -pq.top().first; 
         int now = pq.top().second; 
