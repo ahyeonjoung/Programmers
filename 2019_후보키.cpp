@@ -1,11 +1,11 @@
 #include <string>
 #include <vector>
 #include<set>
-using namespace std;
+using namespace std;  
 
 bool possi(vector<int> vec, int now) {
     for (int i = 0; i < vec.size(); i++)
-        // ans¿¡ ÀÖ´ø Á¶ÇÕÀÌ ÀÌ¹ø¿¡ µé¾î¿Â Á¶ÇÕÀÌ¶û °°Àº °ÍÀÎÁö È®ÀÎ
+        // ansì— ìžˆë˜ ì¡°í•©ì´ ì´ë²ˆì— ë“¤ì–´ì˜¨ ì¡°í•©ì´ëž‘ ê°™ì€ ê²ƒì¸ì§€ í™•ì¸
         if ((vec[i] & now) == vec[i])
             return false;
 
@@ -23,7 +23,7 @@ int solution(vector<vector<string>> relation) {
             string now = "";
 
             for (int k = 0; k < colSize; k++) {
-                // ¼±ÅÃµÈ ÄÃ·³°ú ÀÏÄ¡ÇÑ´Ù¸é
+                // ì„ íƒëœ ì»¬ëŸ¼ê³¼ ì¼ì¹˜í•œë‹¤ë©´
                 if (i & (1 << k))
                     now += relation[j][k];
             }
