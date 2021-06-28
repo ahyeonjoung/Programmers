@@ -3,7 +3,7 @@
 #include<set>    
 using namespace std;  
      
-bool possi(vector<int> vec, int now) {
+     bool possi(vector<int> vec, int now) {
     for (int i = 0; i < vec.size(); i++)
         // ans에 있던 조합이 이번에 들어온 조합이랑 같은 것인지 확인
         if ((vec[i] & now) == vec[i])
