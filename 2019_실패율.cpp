@@ -5,7 +5,7 @@ using namespace std; ;
 vector<int> solution(int N, vector<int> stages) {
     vector<int> answer;
     answer.assign(N,0);
-    int tmp=0;
+    int tmp=0; 0;
     vector <int> correct; 
     correct.assign(N+1,0);
     vector <int> trying;
