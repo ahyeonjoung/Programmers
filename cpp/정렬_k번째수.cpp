@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-using namespace std;
+using namespace std;   
 
 vector<int> solution(vector<int> array, vector<vector<int>> commands) {
     vector<int> answer;
