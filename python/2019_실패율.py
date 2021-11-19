@@ -3,7 +3,7 @@ def solution(N, stages):
     trying=[0 for i in range(N)]
     correct=[0 for i in range(N)]
     ratio={}
-    for i in stages:
+    for i in stages:  
         if i!=N+1:
             for r in range(i-1):
                 trying[r]+=1
