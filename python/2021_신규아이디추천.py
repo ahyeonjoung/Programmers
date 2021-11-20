@@ -7,7 +7,7 @@ def solution(new_id):
     letter=['1','2','3','4','5','6','7','8','9','0','-','_','.']
     for i in range(len(new_id)):
         if new_id[i].islower():
-            answer+=new_id[i]
+            answer+=new_id[i]  
         if new_id[i] in letter:
             answer+=new_id[i]
     #3단계: 마침표 치환
