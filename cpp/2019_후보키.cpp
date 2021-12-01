@@ -28,7 +28,7 @@ int solution(vector<vector<string>> relation) {
                     now += relation[j][k];
             }
             s.insert(now);
-        }
+        }.  
 
         if (s.size() == rowSize && possi(ans, i))
             ans.push_back(i);
