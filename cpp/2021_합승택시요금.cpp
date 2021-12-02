@@ -28,7 +28,7 @@ void dijkstra(int start,int d[])
                 pq.push(make_pair(-cost,graph[now][i].first));
             }
         }
-    }
+    }  
 }
 int solution(int n, int s, int a, int b, vector<vector<int>> fares) {
     int answer = 0;
