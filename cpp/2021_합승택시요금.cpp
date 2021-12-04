@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>      
 #include <queue>
-#include <algorithm>
+#include <algorithm>    
 using namespace std;
 #define INF 1e9 
 
