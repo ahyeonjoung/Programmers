@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>   
 #include<set>      
-using namespace std;  
+using namespace std;    
      
      bool possi(vector<int> vec, int now) {
     for (int i = 0; i < vec.size(); i++)
