@@ -9,7 +9,7 @@ def solution(N, stages):
                 trying[r]+=1
                 correct[r]+=1
             trying[i-1]+=1
-        else:
+        else: 
             for r in range(i-1):
                 trying[r]+=1
                 correct[r]+=1
