@@ -30,4 +30,4 @@ def solution(s):
     if maxNum==1000: #문지열의 길이가 1일경우
         maxNum=1
         
-    return maxNum
+    return maxNum 
