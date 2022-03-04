@@ -4,7 +4,7 @@ def dijkstra(graph,start):
     distances={node: float('inf') for node in graph}
     distances[start]=0
     queue=[]
-    heapq.heappush(queue,[distances[start],start])
+    heapq.heappush(queue,[distances[start],start]) 
     while queue:
         current_distance, current_destination=heapq.heappop(queue)
         if distances[current_destination]<current_distance:   
