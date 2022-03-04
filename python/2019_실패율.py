@@ -1,27 +1,19 @@
 def solution(N, stages):
     answer = []
-    trying=[0 for i in range(N)]
-    correct=[0 for i in range(N)]
-    ratio={}
-    for i in stages:  
-        if i!=N+1:
-            for r in range(i-1):
-                trying[r]+=1
-                correct[r]+=1
-            trying[i-1]+=1
-        else: 
-            for r in range(i-1):
-                trying[r]+=1
-                correct[r]+=1
-    for i in range(N):
-        if trying[i]!=0:
-            ratio[i]=(trying[i]-correct[i])/trying[i]
+    trying=len(stages)
+    correct=0
+    for x in range(1,N+1):
+        for y in stages:
+            if x==y:
+                correct+=1
+        if correct>0:
+            answer.append(correct/trying)
+            trying-=correct
+            correct=0
         else:
-            ratio[i]=0
-            
-    ratio=dict(sorted(ratio.items(), key = lambda item: item[1],reverse=True))
-    
-    for key in ratio:
-        answer.append(key+1)
-        
+            answer.append(0)
+    answer=sorted(range(len(answer)),key=lambda k: answer[k],reverse=True)
+    answer=[x+1 for x in answer]
     return answer
+                
+    
