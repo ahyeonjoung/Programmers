@@ -5,7 +5,7 @@ def solution(N, stages):
     for x in range(1,N+1):
         for y in stages:
             if x==y:
-                correct+=1
+                correct+=1.  
         if correct>0:
             answer.append(correct/trying)
             trying-=correct
