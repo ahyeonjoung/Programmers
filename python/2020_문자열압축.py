@@ -5,7 +5,7 @@ def solution(s):
     for i in range(1,end+1):
         temp=''
         numArr=[]
-        flag=False
+        flag=False   
         num=1
         for j in range(math.ceil(len(s)/i)):
             a1=s[i*j:i*j+i]
