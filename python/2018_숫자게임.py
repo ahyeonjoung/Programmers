@@ -4,7 +4,7 @@ def solution(A, B):
     A.sort(reverse=True)
     B.sort(reverse=True)
     j=0  
-    for i in range(len(A)):
+    for i in range(len(A)):  
         if A[i]>=B[j]:
             continue
         else:
