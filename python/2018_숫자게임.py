@@ -6,7 +6,7 @@ def solution(A, B):
     j=0  
     for i in range(len(A)):  
         if A[i]>=B[j]:
-            continue
+            continue  
         else:
             j+=1
     answer=(j)
