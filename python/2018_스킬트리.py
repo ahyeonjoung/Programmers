@@ -5,7 +5,7 @@ def solution(skill, skill_trees):
         stack.reverse()
         flag=True
         for s in list(skills):
-            if s in stack:
+            if s in stack:   
                 if stack[-1]!=s:
                     flag=False
                     break
