@@ -4,7 +4,7 @@ def solution(s):
     maxNum=1000
     for i in range(1,end+1):
         temp=''
-        numArr=[]
+        numArr=[]  
         flag=False   
         num=1
         for j in range(math.ceil(len(s)/i)):
