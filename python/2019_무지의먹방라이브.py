@@ -6,7 +6,7 @@ def solution(food_times, k):
         heapq.heappush(h, (food_times[i], i + 1)) 
     length = len(food_times)  
     zero = 0 
-    while h:
+    while h:  
         time=(h[0][0]-zero)*length
         if k>=time:
             k-=time
