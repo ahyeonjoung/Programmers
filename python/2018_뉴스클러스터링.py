@@ -7,7 +7,7 @@ def solution(str1, str2):
     b=[]
 
     for i in range(len(str1)-1):
-        if 'a'<=str1[i]<='z' and 'a'<=str1[i+1]<='z':
+        if 'a'<=str1[i]<='z' and 'a'<=str1[i+1]<='z':  
             a.append(str1[i]+str1[i+1])
     for i in range(len(str2)-1):
         if 'a'<=str2[i]<='z' and 'a'<=str2[i+1]<='z':
