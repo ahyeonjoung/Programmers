@@ -6,7 +6,7 @@ def solution(cacheSize, cities):
         return 5*len(cities)
     for city in cities:
         city=city.lower()
-        if city in q:
+        if city in q:  
             answer+=1
             q.remove(city)
             q.append(city)
