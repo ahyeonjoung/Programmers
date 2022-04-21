@@ -8,7 +8,7 @@ def solution(cacheSize, cities):
         city=city.lower()
         if city in q:  
             answer+=1
-            q.remove(city)
+            q.remove(city)  
             q.append(city)
         else:
             if len(q)<cacheSize:
