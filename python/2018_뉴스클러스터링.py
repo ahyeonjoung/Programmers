@@ -28,3 +28,4 @@ def solution(str1, str2):
             al+=a[temp]
     al+=sum(b.values())
     return int(cr/al*65536)
+  
