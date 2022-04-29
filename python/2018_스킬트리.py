@@ -6,7 +6,7 @@ def solution(skill, skill_trees):
         flag=True
         for s in list(skills):
             if s in stack:   
-                if stack[-1]!=s:
+                if stack[-1]!=s: 
                     flag=False
                     break
                 else:
