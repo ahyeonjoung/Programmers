@@ -8,7 +8,7 @@ def solution(words, queries):
     for w in words:
         rev_words.append(w[::-1])
         counted.append(len(w))
-
+  
     trie = make_trie({}, words)  
     rev_trie = make_trie({}, rev_words)   
 
